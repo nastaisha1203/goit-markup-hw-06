@@ -764,10 +764,9 @@ img {
 .input-checkbox:checked + .check-text .check-icon {
   fill: #ffffff;
 }
-.modal-send-btn {
-  text-align: center;
-}
 .modal-btn {
+  display: block;
+  margin: 0 auto;
   min-width: 200px;
   height: 50px;
   font-weight: 700;
