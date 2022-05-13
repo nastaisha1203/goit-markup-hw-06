@@ -633,6 +633,8 @@ img {
   transition: transform var(--hover-efect);
 }
 .modal-close-btn {
+  padding: 0;
+  height: 30px;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -723,6 +725,7 @@ img {
 }
 .check-text {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
